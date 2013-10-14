@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: test | This is a test blog]]></title>
-  <link href="http://test_blog.com/blog/categories/test/atom.xml" rel="self"/>
+  <title><![CDATA[Category: testing | This is a test blog]]></title>
+  <link href="http://test_blog.com/blog/categories/testing/atom.xml" rel="self"/>
   <link href="http://test_blog.com/"/>
-  <updated>2013-10-14T04:34:54+03:00</updated>
+  <updated>2013-10-14T04:59:56+03:00</updated>
   <id>http://test_blog.com/</id>
   <author>
     <name><![CDATA[Anthony Scatchell]]></name>

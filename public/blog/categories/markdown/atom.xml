@@ -4,7 +4,7 @@
   <title><![CDATA[Category: markdown | This is a test blog]]></title>
   <link href="http://test_blog.com/blog/categories/markdown/atom.xml" rel="self"/>
   <link href="http://test_blog.com/"/>
-  <updated>2013-10-14T04:34:54+03:00</updated>
+  <updated>2013-10-14T04:59:56+03:00</updated>
   <id>http://test_blog.com/</id>
   <author>
     <name><![CDATA[Anthony Scatchell]]></name>
@@ -18,19 +18,17 @@
     <link href="http://test_blog.com/blog/2013/10/14/testing-out-markdown/"/>
     <updated>2013-10-14T04:17:00+03:00</updated>
     <id>http://test_blog.com/blog/2013/10/14/testing-out-markdown</id>
-    <content type="html"><![CDATA[<h1>So, this is a header!</h1>
+    <content type="html"><![CDATA[<h1>This is a header!</h1>
 
-<p>Now I might write some text here. It looks quite nice with the underline.</p>
+<p>Now I would write some text here. The markdown looks quite readable with the underline.</p>
 
-<h2>a smaller header</h2>
+<h3>Headers can be small</h3>
 
 <p>Sometimes you don&rsquo;t need the biggest of headers</p>
 
 <h3>Blockquotes:</h3>
 
-<p>And I can finally figure out what the hell a blockquote is now! :)</p>
-
-<blockquote><p>This is it I guess</p>
+<blockquote><p>This is how to do a blockquote</p>
 
 <p>apparently a blockquote needs lots of arrows</p></blockquote>
 
@@ -39,7 +37,7 @@
 
 <p>Lets say this part is only displayed after clicking on the continue button &ndash; that would be cool!</p>
 
-<p>We&rsquo;ll see what happens. Oh, let&rsquo;s throw an image in as well:</p>
+<p>We&rsquo;ll see what happens. Let&rsquo;s throw an image in as well:</p>
 
 <p><img src="http://1.bp.blogspot.com/-aeoQaTvyn2Y/TynN-n7bYaI/AAAAAAAAAMI/Dcx5ruK7BvM/s1600/this-is-only-a-test+(1).jpg" title="This is a title for the image" alt="Test image" /></p>
 ]]></content>

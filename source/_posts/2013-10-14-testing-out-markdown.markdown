@@ -5,22 +5,20 @@ date: 2013-10-14 04:17
 comments: true
 categories: markdown octopress
 ---
-So, this is a header!
+This is a header!
 ====================
-Now I might write some text here. It looks quite nice with the underline.
+Now I would write some text here. The markdown looks quite readable with the underline.
 
-a smaller header
------------------
+###Headers can be small
 Sometimes you don't need the biggest of headers
 
 ###Blockquotes:
-And I can finally figure out what the hell a blockquote is now! :)
-> This is it I guess
+> This is how to do a blockquote
 > 
 > apparently a blockquote needs lots of arrows
 <!-- more -->
 Lets say this part is only displayed after clicking on the continue button - that would be cool!
 
-We'll see what happens. Oh, let's throw an image in as well:
+We'll see what happens. Let's throw an image in as well:
 
 ![Test image](http://1.bp.blogspot.com/-aeoQaTvyn2Y/TynN-n7bYaI/AAAAAAAAAMI/Dcx5ruK7BvM/s1600/this-is-only-a-test+\(1\).jpg "This is a title for the image")
