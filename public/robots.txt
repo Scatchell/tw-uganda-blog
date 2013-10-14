@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://test_blog.com/sitemap.xml 
