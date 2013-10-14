@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://test_blog.com/sitemap.xml 
+Sitemap: http://tw-uganda-blog.herokuapp.com//sitemap.xml 

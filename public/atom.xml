@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[This is a test blog]]></title>
-  <link href="http://test_blog.com/atom.xml" rel="self"/>
-  <link href="http://test_blog.com/"/>
-  <updated>2013-10-14T04:59:56+03:00</updated>
-  <id>http://test_blog.com/</id>
+  <title><![CDATA[In Uganda with ThoughtWorks]]></title>
+  <link href="http://tw-uganda-blog.herokuapp.com//atom.xml" rel="self"/>
+  <link href="http://tw-uganda-blog.herokuapp.com//"/>
+  <updated>2013-10-14T15:52:35+03:00</updated>
+  <id>http://tw-uganda-blog.herokuapp.com//</id>
   <author>
     <name><![CDATA[Anthony Scatchell]]></name>
     
@@ -14,10 +14,25 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Title 3]]></title>
+    <link href="http://tw-uganda-blog.herokuapp.com//blog/2013/10/title-3/"/>
+    <updated>2013-10-14T15:47:00+03:00</updated>
+    <id>http://tw-uganda-blog.herokuapp.com//blog/2013/10/title-3</id>
+    <content type="html"><![CDATA[<h1>Hello this is my post</h1>
+
+<h2>smaller header</h2>
+
+<p><em>bold</em> <em>italic</em></p>
+
+<p>Content</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Testing out markdown]]></title>
-    <link href="http://test_blog.com/blog/2013/10/14/testing-out-markdown/"/>
+    <link href="http://tw-uganda-blog.herokuapp.com//blog/2013/10/testing-out-markdown/"/>
     <updated>2013-10-14T04:17:00+03:00</updated>
-    <id>http://test_blog.com/blog/2013/10/14/testing-out-markdown</id>
+    <id>http://tw-uganda-blog.herokuapp.com//blog/2013/10/testing-out-markdown</id>
     <content type="html"><![CDATA[<h1>This is a header!</h1>
 
 <p>Now I would write some text here. The markdown looks quite readable with the underline.</p>
@@ -45,9 +60,9 @@
   
   <entry>
     <title type="html"><![CDATA[First post test!]]></title>
-    <link href="http://test_blog.com/blog/2013/10/13/first-post-test/"/>
+    <link href="http://tw-uganda-blog.herokuapp.com//blog/2013/10/first-post-test/"/>
     <updated>2013-10-13T17:14:00+03:00</updated>
-    <id>http://test_blog.com/blog/2013/10/13/first-post-test</id>
+    <id>http://tw-uganda-blog.herokuapp.com//blog/2013/10/first-post-test</id>
     <content type="html"><![CDATA[<p>This is a test body for the post</p>
 
 <p>Adding to this for another test</p>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: testing | This is a test blog]]></title>
-  <link href="http://test_blog.com/blog/categories/testing/atom.xml" rel="self"/>
-  <link href="http://test_blog.com/"/>
-  <updated>2013-10-14T04:59:56+03:00</updated>
-  <id>http://test_blog.com/</id>
+  <title><![CDATA[Category: testing | In Uganda with ThoughtWorks]]></title>
+  <link href="http://tw-uganda-blog.herokuapp.com//blog/categories/testing/atom.xml" rel="self"/>
+  <link href="http://tw-uganda-blog.herokuapp.com//"/>
+  <updated>2013-10-14T15:52:35+03:00</updated>
+  <id>http://tw-uganda-blog.herokuapp.com//</id>
   <author>
     <name><![CDATA[Anthony Scatchell]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[First post test!]]></title>
-    <link href="http://test_blog.com/blog/2013/10/13/first-post-test/"/>
+    <link href="http://tw-uganda-blog.herokuapp.com//blog/2013/10/first-post-test/"/>
     <updated>2013-10-13T17:14:00+03:00</updated>
-    <id>http://test_blog.com/blog/2013/10/13/first-post-test</id>
+    <id>http://tw-uganda-blog.herokuapp.com//blog/2013/10/first-post-test</id>
     <content type="html"><![CDATA[<p>This is a test body for the post</p>
 
 <p>Adding to this for another test</p>

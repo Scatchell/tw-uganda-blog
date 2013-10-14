@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://test_blog.com
-title: This is a test blog
-subtitle: Thoughtworks blog
+url: http://tw-uganda-blog.herokuapp.com/
+title: In Uganda with ThoughtWorks
+subtitle: Thoughts and experiences of a software developer in Kampala
 author: Anthony Scatchell
 simple_search: http://google.com/search
-description: This is where the description goes
+description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:year/:month/:title/
 source: source
 destination: public
 plugins: plugins
