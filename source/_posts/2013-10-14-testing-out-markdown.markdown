@@ -10,7 +10,7 @@ This is a header!
 Now I would write some text here. The markdown looks quite readable with the underline.
 
 ###Headers can be small
-Sometimes you don't need fffffffffffffffff biggest of headers
+Sometimes you don't need the biggest of headers
 
 ###Blockquotes:
 > This is how to do a blockquote
