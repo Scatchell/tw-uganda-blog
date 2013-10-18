@@ -4,7 +4,7 @@
   <title><![CDATA[Story Wall]]></title>
   <link href="http://tw-uganda-blog.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tw-uganda-blog.herokuapp.com//"/>
-  <updated>2013-10-17T12:47:41+03:00</updated>
+  <updated>2013-10-18T16:48:16+03:00</updated>
   <id>http://tw-uganda-blog.herokuapp.com//</id>
   <author>
     <name><![CDATA[Anthony Scatchell]]></name>
@@ -14,67 +14,101 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Story-Wall Example Post]]></title>
-    <link href="http://tw-uganda-blog.herokuapp.com//blog/2013/10/story-wall-example-post/"/>
-    <updated>2013-10-14T15:47:00+03:00</updated>
-    <id>http://tw-uganda-blog.herokuapp.com//blog/2013/10/story-wall-example-post</id>
-    <content type="html"><![CDATA[<h1>This is where the title of the story might go</h1>
+    <title type="html"><![CDATA[Fireballs In The Sky]]></title>
+    <link href="http://tw-uganda-blog.herokuapp.com//blog/2013/10/fireballs_in_sky/"/>
+    <updated>2013-10-18T09:42:00+03:00</updated>
+    <id>http://tw-uganda-blog.herokuapp.com//blog/2013/10/fireballs_in_sky</id>
+    <content type="html"><![CDATA[<p>The TW Perth office released an Android/iOS app called Fireballs In The Sky to help encourage community involvement with the Desert Fireball Network, links below.</p>
 
-<p><img src="http://tw-uganda-blog.herokuapp.com//assets/images/test_image.png" title="Story-wall example image" alt="Introduction Image" /></p>
+<p>For the rest of you&hellip;</p>
 
-<h2>Some image/resource credits</h2>
+<p>So, what do you do when you are approached to work on a project called &ldquo;Fireballs In The Sky&rdquo;?
+Clearly, you ask where to sign.</p>
 
-<ol>
-<li>Used <a href="http://www.google.com" title="Google">google</a> a lot for searching</li>
-<li><a href="http://www.wikipedia.org" title="Wikipedia">Wikipedia</a> was also pretty useful</li>
-<li>But, didn&rsquo;t use <a href="http://www.yahoo.com" title="Yahoo">yahoo</a> at all</li>
-</ol>
+<p>How about if you&rsquo;re in a small office with no capacity, in a sold-out country?
+Did I mention it was called &ldquo;Fireballs In The Sky&rdquo;?</p>
+
+<h2>Tell me more!</h2>
+
+<p>Such was the dilemma faced by the Perth office, but the prospect of some cool work, in a cool domain was too great to resist. With support from ThoughtWorks, the office signed up to do the project in their own time to get some cool local work we could reference.</p>
+
+<h2>Who is it for?</h2>
+
+<p>The project is part of a science outreach program from Curtin University, supporting the research of the Desert Fireball Network (DFN). The DFN is a series of cameras being spread out through Australia, to track fireballs and help determine their origin. More details can be found here: <a href="http://www.fireballsinthesky.com.au/about/.">http://www.fireballsinthesky.com.au/about/.</a></p>
+
+<h2>Alright, so what did we do?</h2>
+
+<p>It is an app designed to get people interested in the project and science in general. The app had to be, in the words of one Professor Phil Bland, &ldquo;cute&rdquo;.  The team at Curtin are able to keep the citizen scientists up to date with the latest events, news and sightings, and can share some of the amazing images taken from the DFN and other sources. The best bit though, is people being able to contribute their own sightings and even better than that, build their own fireballs.</p>
+
+<h2>Did you just say build their own fireballs?</h2>
+
+<p>You bet I did. In order for an engaging experience, the team picked up a few stories clearly not in the MVP pile to enable the users to describe their sighting with an animated fireball.</p>
+
+<h2>Tell me about the greasy bits!</h2>
+
+<p>The team initially spiked out using Calatrava, but the more we looked the less shared logic we had. Given the level of interaction needed with the sensors and wanting to make it &ldquo;cute&rdquo; on as many devices as possible, we discounted pure web. The answer? Two native apps.</p>
+
+<ul>
+<li><strong>Android</strong>
+
+<ul>
+<li><em>Targeting 4.0+</em></li>
+<li>Android Tools w/ Gradle</li>
+<li>Roboguice</li>
+<li>ActiveAndroid</li>
+<li>AndEngine</li>
+<li>Retrofit</li>
+<li>Jackson</li>
+</ul>
+</li>
+<li><strong>iOS</strong>
+
+<ul>
+<li><em>Targeting iOS6+</em></li>
+<li>Cocoapods</li>
+<li>MagicalRecord</li>
+<li>cocos2d</li>
+<li>AsyncImageView</li>
+<li>AFNetworking</li>
+<li>BlocksKit</li>
+</ul>
+</li>
+<li><strong>Backend</strong>
+
+<ul>
+<li><em>Rails 3.2</em></li>
+<li>ActiveAdmin</li>
+<li>Heroku</li>
+</ul>
+</li>
+<li><strong>Other</strong>
+
+<ul>
+<li>TestFlight</li>
+<li>Snap CI</li>
+</ul>
+</li>
+</ul>
 
 
-<p><strong>bold content</strong> <em>italic content</em></p>
+<h2>How was the experience?</h2>
 
-<p>Some more content could go here</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Testing out markdown]]></title>
-    <link href="http://tw-uganda-blog.herokuapp.com//blog/2013/10/testing-out-markdown/"/>
-    <updated>2013-10-14T04:17:00+03:00</updated>
-    <id>http://tw-uganda-blog.herokuapp.com//blog/2013/10/testing-out-markdown</id>
-    <content type="html"><![CDATA[<h1>This is a header!</h1>
+<p>Working with Curtin was great, really collaborative and nice to have an enthusiastic partner. To cherry pick two phrases from Phil at the app launch:
+&ldquo;This went far beyond business, it was true collaboration.&rdquo;
+&ldquo;The ThoughtWorks team went beyond with their skill, energy and ideas.&rdquo;
+So, just who are you guys again?
+The team consisted of Brad Ward, Ray Grasso, Mike Gardiner, Mark Togher and Nathan Jones, with cameo appearances from David Colls, Maia Sauren, Diana Adorno, Andrew Carr and the rest of you I&rsquo;ve likely left off.</p>
 
-<p>Now I would write some text here. The markdown looks quite readable with the underline.</p>
+<h2>Gimme! Gimme! Gimme!</h2>
 
-<h3>Headers can be small</h3>
+<p>App Store: <a href="http://bit.ly/1eZ68BA">http://bit.ly/1eZ68BA</a> &lt;&mdash; Share me!
+Google Play: <a href="http://bit.ly/1eK6X1S">http://bit.ly/1eK6X1S</a> &lt;&mdash; Share me!</p>
 
-<p>Sometimes you don&rsquo;t need the biggest of headers</p>
+<h2>I learn best through pictures.</h2>
 
-<h3>Blockquotes:</h3>
+<p>Luckily, here is a picture of the team!</p>
 
-<blockquote><p>This is how to do a blockquote</p>
-
-<p>apparently a blockquote needs lots of arrows</p></blockquote>
-
-<!-- more -->
-
-
-<p>Lets say this part is only displayed after clicking on the continue button &ndash; that would be cool!</p>
-
-<p>We&rsquo;ll see what happens. Let&rsquo;s throw an image in as well:</p>
-
-<p><img src="http://1.bp.blogspot.com/-aeoQaTvyn2Y/TynN-n7bYaI/AAAAAAAAAMI/Dcx5ruK7BvM/s1600/this-is-only-a-test+(1).jpg" title="This is a title for the image" alt="Test image" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First post test!]]></title>
-    <link href="http://tw-uganda-blog.herokuapp.com//blog/2013/10/first-post-test/"/>
-    <updated>2013-10-13T17:14:00+03:00</updated>
-    <id>http://tw-uganda-blog.herokuapp.com//blog/2013/10/first-post-test</id>
-    <content type="html"><![CDATA[<p>This is a test body for the post</p>
-
-<p>Adding to this for another test</p>
+<p><img src="http://tw-uganda-blog.herokuapp.com//assets/images/fireballs_team.jpg" title="Fireballs Team!" alt="The Fireballs Team" /></p>
 ]]></content>
   </entry>
   

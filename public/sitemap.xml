@@ -1,28 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://tw-uganda-blog.herokuapp.com//blog/2013/10/first-post-test/</loc>
-        <lastmod>2013-10-16T10:49:51+03:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tw-uganda-blog.herokuapp.com//blog/2013/10/testing-out-markdown/</loc>
-        <lastmod>2013-10-17T12:46:32+03:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tw-uganda-blog.herokuapp.com//blog/2013/10/story-wall-example-post/</loc>
-        <lastmod>2013-10-17T12:37:18+03:00</lastmod>
+        <loc>http://tw-uganda-blog.herokuapp.com//blog/2013/10/fireballs_in_sky/</loc>
+        <lastmod>2013-10-18T16:48:12+03:00</lastmod>
     </url>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//about/</loc>
-        <lastmod>2013-10-14T04:52:23+03:00</lastmod>
+        <lastmod>2013-10-18T09:30:14+03:00</lastmod>
     </url>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//blog/archives/</loc>
-        <lastmod>2013-10-17T12:46:32+03:00</lastmod>
+        <lastmod>2013-10-18T16:48:12+03:00</lastmod>
     </url>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//</loc>
-        <lastmod>2013-10-17T12:46:32+03:00</lastmod>
+        <lastmod>2013-10-18T16:48:12+03:00</lastmod>
     </url>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//robots.txt</loc>
