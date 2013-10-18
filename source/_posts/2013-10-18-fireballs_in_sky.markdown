@@ -69,8 +69,9 @@ So, just who are you guys again?
 The team consisted of Brad Ward, Ray Grasso, Mike Gardiner, Mark Togher and Nathan Jones, with cameo appearances from David Colls, Maia Sauren, Diana Adorno, Andrew Carr and the rest of you I've likely left off.
 
 ##Gimme! Gimme! Gimme!
-App Store: http://bit.ly/1eZ68BA <-- Share me!
-Google Play: http://bit.ly/1eK6X1S <-- Share me!
+[App Store](http://bit.ly/1eZ68BA) <-- Share me!
+
+[Google Play](http://bit.ly/1eK6X1S) <-- Share me!
 
 ##I learn best through pictures.
 Luckily, here is a picture of the team!
