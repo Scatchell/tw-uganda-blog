@@ -4,10 +4,10 @@
 
 url: http://tw-uganda-blog.herokuapp.com/
 title: Story Wall
-subtitle: A collection of thoughts and experiences of ThoughtWorkers
+subtitle: These stories are ready for acceptance...
 author: Anthony Scatchell
-simple_search: http://google.com/search
-description:
+simple_search: 'http://google.com/search'
+description: A collection of thoughts and experiences written by/for ThoughtWorkers
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in

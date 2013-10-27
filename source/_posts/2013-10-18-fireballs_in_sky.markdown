@@ -4,6 +4,7 @@ title: "Fireballs In The Sky"
 date: 2013-10-18 09:42
 comments: true
 cover_title: 'Fireballs In The Sky'
+content_class: 'centering'
 cover_link: 'fire_in_sky'
 cover: 'http://creoleindc.typepad.com/.a/6a00d8341c5e0053ef01901c24ecad970b-800wi'
 cover_alt: 'Fireballs In The Sky'
