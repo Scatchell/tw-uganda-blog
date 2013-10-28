@@ -17,6 +17,8 @@ group :development do
   gem 'directory_watcher', '1.4.1'
 end
 
+gem 'ruby-saml'
+
 gem 'heroku'
 
 gem 'sinatra', '~> 1.4.2'
