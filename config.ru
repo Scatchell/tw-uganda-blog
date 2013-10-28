@@ -2,6 +2,8 @@ require 'bundler/setup'
 require 'sinatra/base'
 require 'ruby-saml'
 
+$stdout.sync = true
+
 # The project root directory
 $root = ::File.dirname(__FILE__)
 
@@ -10,12 +12,14 @@ class SinatraStaticServer < Sinatra::Base
 
   get(/saml\/init/) do
     request = Onelogin::Saml::Authrequest.new
+    p request.create(saml_settings)
     redirect to(request.create(saml_settings))
   end
 
   get(/saml\/consume/) do
-
+    p "&&params:" + params[:SAMLResponse]
     response = Onelogin::Saml::Response.new(params[:SAMLResponse])
+    p "&&response:" + response
     response.settings = saml_settings
 
     if response.is_valid? && user = current_account.users.find_by_email(response.name_id)
