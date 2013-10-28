@@ -20,4 +20,8 @@
         <loc>http://tw-uganda-blog.herokuapp.com//robots.txt</loc>
         <lastmod>2013-10-13T17:09:54+03:00</lastmod>
     </url>
+    <url>
+        <loc>http://tw-uganda-blog.herokuapp.com//sign-in/</loc>
+        <lastmod>2013-10-28T21:18:37+03:00</lastmod>
+    </url>
 </urlset>

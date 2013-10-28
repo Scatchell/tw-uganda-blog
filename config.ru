@@ -9,30 +9,37 @@ $root = ::File.dirname(__FILE__)
 
 
 class SinatraStaticServer < Sinatra::Base
+  enable :sessions
 
   get(/saml\/init/) do
     request = Onelogin::Saml::Authrequest.new
-    p request.create(saml_settings)
     redirect to(request.create(saml_settings))
   end
 
-  get(/saml\/consume/) do
-    p "&&params:" + params[:SAMLResponse]
+  post(/saml\/consume/) do
     response = Onelogin::Saml::Response.new(params[:SAMLResponse])
-    p "&&response:" + response
+
     response.settings = saml_settings
 
-    if response.is_valid? && user = current_account.users.find_by_email(response.name_id)
-      puts '&&success&&'
-      authorize_success(user)
+    if response.is_valid?
+      puts response.name_id.to_s + ' is successfully authorized!'
+      session['authorized'] = 'true'
+      redirect to('/')
     else
-      puts '&&failure&&'
-      authorize_failure(user)
+      'Sorry, you couldn\'t be successfully authorized'
     end
   end
 
+  get(/sign-in/) do
+    send_sinatra_file('/sign-in')
+  end
+
   get(/.+/) do
-    send_sinatra_file(request.path) { 404 }
+    if session['authorized'] == 'true'
+      send_sinatra_file(request.path) { 404 }
+    else
+      redirect to('/sign-in')
+    end
   end
 
   not_found do

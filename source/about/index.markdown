@@ -6,4 +6,4 @@ comments: true
 sharing: true
 footer: true
 ---
-This blog is a test of octopress, eventually it may be my uganda blog
+This blog is a test of octopress, eventually it will be the ThoughtWorks Story Wall!
