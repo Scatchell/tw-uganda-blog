@@ -22,3 +22,4 @@ gem 'ruby-saml'
 gem 'heroku'
 
 gem 'sinatra', '~> 1.4.2'
+gem 'sinatra-contrib'

@@ -1,6 +1,7 @@
 require 'bundler/setup'
 require 'sinatra/base'
 require 'ruby-saml'
+require "sinatra/cookies"
 
 $stdout.sync = true
 
@@ -9,11 +10,18 @@ $root = ::File.dirname(__FILE__)
 
 
 class SinatraStaticServer < Sinatra::Base
-  enable :sessions
+  use Rack::Session::Cookie, :key => 'rack.session',
+      :path => '/',
+      :expire_after => 2592000,
+      :secret => SecureRandom.hex
 
   get(/saml\/init/) do
     request = Onelogin::Saml::Authrequest.new
-    redirect to(request.create(saml_settings))
+
+    settings = saml_settings
+    created_request = request.create(settings)
+
+    redirect to(created_request)
   end
 
   post(/saml\/consume/) do
@@ -21,13 +29,22 @@ class SinatraStaticServer < Sinatra::Base
 
     response.settings = saml_settings
 
+    p response
+
     if response.is_valid?
-      puts response.name_id.to_s + ' is successfully authorized!'
-      session['authorized'] = 'true'
+      log_user_in
+
+      puts 'successfully authorized with user id' + response.name_id
+
       redirect to('/')
     else
       'Sorry, you couldn\'t be successfully authorized'
     end
+  end
+
+  get(/sign-out/) do
+    log_user_out
+    send_sinatra_file('/sign-in')
   end
 
   get(/sign-in/) do
@@ -35,7 +52,10 @@ class SinatraStaticServer < Sinatra::Base
   end
 
   get(/.+/) do
-    if session['authorized'] == 'true'
+    puts 'trying to authorize session information...'
+    p request.session
+
+    if request.session['logged_in']
       send_sinatra_file(request.path) { 404 }
     else
       redirect to('/sign-in')
@@ -58,13 +78,22 @@ class SinatraStaticServer < Sinatra::Base
 
     settings.assertion_consumer_service_url = "http://#{request.host}/saml/consume"
     settings.issuer = request.host
+
     settings.idp_sso_target_url = 'https://thoughtworks.oktapreview.com/home/template_saml_2_0/0oahmrxahZAGXOAFAMHT/1541'
     settings.idp_cert_fingerprint = 'B8:53:D4:A7:E6:1B:86:FF:4E:91:F6:2D:34:EB:A6:A2:8F:89:9E:6F'
-    settings.name_identifier_format = "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
+    settings.name_identifier_format = 'urn:oasis:names:tc:SAML:1.1:nameid-format:transient'
     # Optional for most SAML IdPs
-    settings.authn_context = "urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport"
+    settings.authn_context = 'urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport'
 
     settings
+  end
+
+  def log_user_in
+    env['rack.session'][:logged_in] = true
+  end
+
+  def log_user_out
+    env['rack.session'][:logged_in] = false
   end
 end
 
