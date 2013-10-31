@@ -52,6 +52,7 @@ class SinatraStaticServer < Sinatra::Base
   end
 
   get(/.+/) do
+    
     puts 'trying to authorize session information...'
     p request.session
 
