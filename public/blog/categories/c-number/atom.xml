@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: C# | GRAPEVINE]]></title>
+  <link href="http://tw-uganda-blog.herokuapp.com//blog/categories/c-number/atom.xml" rel="self"/>
+  <link href="http://tw-uganda-blog.herokuapp.com//"/>
+  <updated>2013-11-04T22:48:47+03:00</updated>
+  <id>http://tw-uganda-blog.herokuapp.com//</id>
+  <author>
+    <name><![CDATA[ThoughtWorks]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Puku]]></title>
+    <link href="http://tw-uganda-blog.herokuapp.com//blog/2013/11/puku/"/>
+    <updated>2013-11-04T19:14:00+03:00</updated>
+    <id>http://tw-uganda-blog.herokuapp.com//blog/2013/11/puku</id>
+    <content type="html"><![CDATA[<p><strong>South African children are hitting the books in Zulu, Sepedi, Afrikaans and more&hellip;</strong></p>
+
+<hr />
+
+<p>Puku Children’s Literature Foundation is a not-for-profit organization based in South Africa. Puku’s mission is to preserve the indigenous languages of Southern Africa through the establishment of a diverse and active literature community for indigenous language children’s books. A simple desire, that’s incredibly hard to achieve in a predominantly English and Afrikaans publishing world.</p>
+
+<p>Their aim is to make indigenous language children’s literature widely available and to encourage children to read and write stories in their mother tongues.</p>
+
+<p>Puku recognized that to truly make a difference in this space – they needed a website that would engage users and encourage repeat visits. They wanted a website community that was inclusive and educational, a place where both consumers and producers of indigenous language literature could assemble. An online space where children, writers, authors, parents and caregivers could interface directly and begin to tell their own stories.</p>
+
+<p>A team of ThoughtWorkers partnered with Puku to create the first site of its kind in South Africa. Using .NET development and an open source content management system, the team built a site that is easy to maintain – and created the user experience Puku customers needed &hellip; contributing code back to the .NET C# development community along the way.</p>
+
+<p>The Puku site went from a 70% bounce rate to just 46% since the launch of the new site. Of these visitors, 46.5% were returning users – an increase of 11% in just two months.</p>
+
+<p>Through the rapid delivery and continuous design experience, the Puku site is making native language children’s books more accessible to the community, providing local authors a platform to reach their readers and beginning to chip away at the barriers to child literacy – all this while keeping South Africa’s national languages alive.</p>
+
+<blockquote><p>“Using our digital platform, Puku is able to help parents, educators, publishers and writers access, promote and celebrate hundreds of our local children&rsquo;s books. It is accessible via mobile phones and the community of visitors and contributors grows daily. More than that, ThoughtWorks and Puku are providing online content and information that does not exist anywhere else”</p>
+
+<hr />
+
+<p>&mdash; Bontle Senne, Managing Director PUKU Foundation</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

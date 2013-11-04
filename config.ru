@@ -52,7 +52,6 @@ class SinatraStaticServer < Sinatra::Base
   end
 
   get(/.+/) do
-    log_user_in
     puts 'trying to authorize session information...'
     p request.session
 

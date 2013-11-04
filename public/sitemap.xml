@@ -2,19 +2,35 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//blog/2013/10/fireballs_in_sky/</loc>
-        <lastmod>2013-10-31T18:52:13+03:00</lastmod>
+        <lastmod>2013-11-04T21:53:56+03:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://tw-uganda-blog.herokuapp.com//blog/2013/11/live-below-the-line-case-study/
+        </loc>
+        <lastmod>2013-11-04T22:29:16+03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tw-uganda-blog.herokuapp.com//blog/2013/11/puku/</loc>
+        <lastmod>2013-11-04T22:41:37+03:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://tw-uganda-blog.herokuapp.com//blog/2013/11/managing-a-non-english-inception/
+        </loc>
+        <lastmod>2013-11-04T22:27:03+03:00</lastmod>
     </url>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//about/</loc>
-        <lastmod>2013-10-28T21:26:46+03:00</lastmod>
+        <lastmod>2013-11-04T22:42:39+03:00</lastmod>
     </url>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//blog/archives/</loc>
-        <lastmod>2013-10-31T18:52:13+03:00</lastmod>
+        <lastmod>2013-11-04T22:41:37+03:00</lastmod>
     </url>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//</loc>
-        <lastmod>2013-10-31T18:52:13+03:00</lastmod>
+        <lastmod>2013-11-04T22:41:37+03:00</lastmod>
     </url>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//robots.txt</loc>
@@ -22,6 +38,6 @@
     </url>
     <url>
         <loc>http://tw-uganda-blog.herokuapp.com//sign-in/</loc>
-        <lastmod>2013-10-28T21:27:05+03:00</lastmod>
+        <lastmod>2013-11-04T22:48:07+03:00</lastmod>
     </url>
 </urlset>

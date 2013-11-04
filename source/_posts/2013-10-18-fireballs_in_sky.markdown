@@ -10,7 +10,11 @@ cover_alt: 'Fireballs In The Sky'
 cover_caption: 'Fireballs In The Sky!'
 lettrine: true
 thumbnail: 'http://i.telegraph.co.uk/multimedia/archive/01414/meteor_1414384c.jpg'
-categories: thoughtworks story fireballs
+categories:
+- thoughtworks
+- perth
+- android
+- ios
 ---
 The TW Perth office released an Android/iOS app called Fireballs In The Sky to help encourage community involvement with the Desert Fireball Network, links below.
 

@@ -147,8 +147,8 @@ blockquote cite:before {
 .basic-alignment.left,
 .basic-alignment.right { margin-bottom: .8em }
 blockquote {
-    margin: 1em auto;
-    max-width: 50%;
+    margin: 1em 10px;
+    max-width: 60%;
 }
 @media only screen and (max-width: 550px) {
     .hide-mobile { display: none !important }
@@ -178,10 +178,11 @@ pre { text-align: left }
 #content h4,
 #content h5,
 #content h6,
-#content .meta { text-align: left; font-weight: 100;}
+#content .meta { font-weight: 100;}
 #content .cover-image { margin: 1em 0px }
 article { text-align: center }
 .entry-content {
+    max-width: 700px;
     text-align: left;
     font-weight: 100;
     margin-top: .5em;
