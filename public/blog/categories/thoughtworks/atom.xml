@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: thoughtworks | Story Wall]]></title>
+  <title><![CDATA[Category: thoughtworks | GRAPEVINE]]></title>
   <link href="http://tw-uganda-blog.herokuapp.com//blog/categories/thoughtworks/atom.xml" rel="self"/>
   <link href="http://tw-uganda-blog.herokuapp.com//"/>
-  <updated>2013-10-31T18:55:59+03:00</updated>
+  <updated>2013-11-04T18:39:11+03:00</updated>
   <id>http://tw-uganda-blog.herokuapp.com//</id>
   <author>
-    <name><![CDATA[Anthony Scatchell]]></name>
+    <name><![CDATA[ThoughtWorks]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
