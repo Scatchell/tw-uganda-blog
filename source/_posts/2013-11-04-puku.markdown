@@ -8,7 +8,7 @@ cover_link: 'Puku'
 cover: 'http://www.thoughtworks.com/imgs/logos/puku-logo.png'
 cover_alt: 'Puku'
 lettrine: true
-thumbnail: 'http://www.thoughtworks.com/imgs/logos/puku-logo.png'
+thumbnail: 'http://www.personal.psu.edu/afr3/blogs/SIOW/elephant.jpg'
 categories:
 - not-for-profit
 - C#

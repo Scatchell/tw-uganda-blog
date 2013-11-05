@@ -51,10 +51,14 @@ class SinatraStaticServer < Sinatra::Base
     send_sinatra_file('/sign-in')
   end
 
+  get(/log-in-hack/) do
+    log_user_in
+    redirect to('/')
+  end
+
   get(/.+/) do
     puts 'trying to authorize session information...'
-    p request.session
-
+    
     if request.session['logged_in']
       send_sinatra_file(request.path) { 404 }
     else

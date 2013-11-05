@@ -50,7 +50,6 @@ em,
 body>header h2
 sup,
 sub {
-    font-size: 0.8em;
     position: relative;
     display: inline-block;
 }
@@ -178,7 +177,7 @@ pre { text-align: left }
 #content h4,
 #content h5,
 #content h6,
-#content .meta { font-weight: 100;}
+#content .meta {  text-align: center; font-weight: 100;}
 #content .cover-image { margin: 1em 0px }
 article { text-align: center }
 .entry-content {
@@ -186,10 +185,10 @@ article { text-align: center }
     text-align: left;
     font-weight: 100;
     margin-top: .5em;
-    border-top: 1px solid black;
     padding-top: .5em;
     color: #999;
 }
+#content h1, #content .meta  { text-align: left; }
 /*article:first-child .post-box { margin-top: 2em }*/
 img.round {
     border-radius: 50%;
