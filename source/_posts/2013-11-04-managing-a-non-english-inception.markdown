@@ -3,10 +3,10 @@ layout: post
 title: "Managing a non-English Inception"
 date: 2013-11-04 22:10
 comments: true
-cover_title: 'Puku'
+cover_title: 'Managing a non-English Inception'
 cover_link: 'Puku'
 cover: 'http://images2.fanpop.com/image/photos/14300000/Inception-inception-2010-14355479-1680-1050.jpg'
-cover_alt: 'Puku'
+cover_alt: 'Managing a non-English Inception'
 lettrine: true
 thumbnail: 'http://www.scootys.com/easy_capture/images/wp-stickies.png'
 categories:
@@ -14,6 +14,7 @@ categories:
 - inception
 ---
 The following write-up is about some of our experiences while conducting an Inception for a client (Konvergence), where some of the participants are not comfortable (capable) of conversing in English. The intention of writing this is also for people who have had other varied experiences while running non-English Inceptions to share their thoughts/suggestions.
+
 This was my first experience of such an environment and I was not sure about how we would be able to play this out on the ground.
  
 ###Pre-Inception

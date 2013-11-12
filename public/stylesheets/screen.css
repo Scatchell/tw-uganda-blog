@@ -178,17 +178,17 @@ pre { text-align: left }
 #content h5,
 #content h6,
 #content .meta {  text-align: center; font-weight: 100;}
-#content .cover-image { margin: 1em 0px }
+#content .cover-image { margin: auto; }
 article { text-align: center }
 .entry-content {
+    margin: auto;
     max-width: 700px;
-    text-align: left;
+    text-align: justify;
     font-weight: 100;
     margin-top: .5em;
     padding-top: .5em;
-    color: #999;
+    color: #807E7E;
 }
-#content h1, #content .meta  { text-align: left; }
 /*article:first-child .post-box { margin-top: 2em }*/
 img.round {
     border-radius: 50%;
@@ -208,6 +208,7 @@ img.round {
     overflow: hidden;
     position: relative;
     border: none;
+    margin: auto;
 }
 /*.post-box .entry-content {
     margin: 0 auto;
@@ -231,7 +232,7 @@ img.round {
     color: #000;
     text-decoration: none;
     font-weight: 100;
-    font-size: 1.25em;
+    font-size: 1.00em;
 }
 .post-box h1 a:hover { color: #61ced6; }
 .post-box .meta { font-weight: 100;}
@@ -317,6 +318,7 @@ body>header h1 a:focus {
         }
         article .cover-image a img,
         article .cover-image img {
+            max-width: 500px;
             border: none !important;
             border-radius: 0 !important;
             box-shadow: none !important;
@@ -325,7 +327,6 @@ body>header h1 a:focus {
             content: attr(data-caption);
             display: block;
             color: #999;
-            text-align: right;
         }
         @media only screen and (min-width: 768px) {
             article {
@@ -503,4 +504,8 @@ a:hover {
 .post-thumbnail a:hover {
     top: 0px;
     position: relative;
+}
+
+#post-header-content {
+    height: 235px;
 }

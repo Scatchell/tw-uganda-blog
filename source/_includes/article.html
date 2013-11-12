@@ -1,6 +1,7 @@
 {% unless page.no_header %}
   <header>
     {% if index %}
+    <div id="post-header-content">
       {% if post.thumbnail %}
       <div class="post-thumbnail"><a href="{{ root_url }}{{ post.url }}"><img alt="" src="{{post.thumbnail}}" width="150"/></a></div>
       {% endif %}
@@ -18,6 +19,7 @@
         {% include post/date.html %}{{ time }}
       </p>
     {% endunless %}
+    </div>
   </header>
 {% endunless %}
 {% if index %}
