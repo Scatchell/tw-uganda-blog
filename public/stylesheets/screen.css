@@ -509,3 +509,7 @@ a:hover {
 #post-header-content {
     height: 235px;
 }
+
+footer {
+    text-align: center;
+}
