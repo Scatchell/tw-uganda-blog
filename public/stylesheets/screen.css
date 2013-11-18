@@ -334,6 +334,7 @@ body>header h1 a:focus {
             }
         }
 >footer {
+    text-align: center;
      padding-bottom: 2.5em;
      margin-top: 2em;
  }
@@ -507,9 +508,10 @@ a:hover {
 }
 
 #post-header-content {
-    height: 235px;
+    height: 255px;
 }
 
 footer {
     text-align: center;
 }
+

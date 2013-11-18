@@ -3,10 +3,10 @@
 # ----------------------- #
 
 url: http://tw-uganda-blog.herokuapp.com/
-title: Show & Tell
+title: Hakawati
 subtitle: These stories are ready for acceptance...
 author: ThoughtWorks
-simple_search: 'http://google.com/search'
+simple_search:
 description: A collection of thoughts and experiences written by/for ThoughtWorkers
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
